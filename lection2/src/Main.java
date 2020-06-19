@@ -1,17 +1,93 @@
 import java.util.Arrays;
 
+/**
+ * 1. Задать целочисленный массив, состоящий из элементов 0 и 1. Например: [ 1, 1, 0, 0, 1, 0, 1, 1, 0, 0 ]. С помощью цикла и условия заменить 0 на 1, 1 на 0;
+ * 2. Задать пустой целочисленный массив размером 8. С помощью цикла заполнить его значениями 0 3 6 9 12 15 18 21;
+ * 3. Задать массив [ 1, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1 ] пройти по нему циклом, и числа меньшие 6 умножить на 2;
+ * 4. Создать квадратный двумерный целочисленный массив (количество строк и столбцов одинаковое), и с помощью цикла(-ов) заполнить его диагональные элементы единицами;
+ */
+
 public class Main {
 
     public static void main(String[] args) {
         // write your code here
-        int[] array = MyArray.createArray(10);
-        int[] array2 = new int[] {2,2,2,1,2,2,10,1};
-        System.out.println(Arrays.toString(array));
-        System.out.println("Minimum element is: " + MyArray.findMin(array));
-        System.out.println("Maximum element is: " + MyArray.findMax(array));
-        System.out.println(MyArray.checkBalance(array2));
-        System.out.println(MyArray.checkBalance(array));
-        System.out.println(Arrays.toString(MyArray.shift(array, 12)));
+        System.out.println("\n***********Solution 1**************");
+        int[] array1 = new int[] {1, 1, 0, 0, 1, 0, 1, 1, 0, 0};
+        solutionOne(array1);
+        printArray(array1);
+
+        System.out.println("\n***********Solution 2**************");
+        int[] array2 = new int[8];
+        for (int i = 0, j = 0; i < array2.length; i++, j+=3) {
+            array2[i] = j;
+        }
+        printArray(array2);
+
+        System.out.println("\n***********Solution 3**************");
+        int[] array3 = new int[] {1, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1};
+        solutionThree(array3);
+        printArray(array3);
+
+        System.out.println("\n***********Solution 4**************");
+        int size = 5;
+        int[][] array4 = new int[size][size];
+        solutionFour(array4);
+
+
+        for (int i = 0; i < array4.length; i++) {
+            for (int j = 0; j < array4[i].length; j++) {
+                System.out.print(array4[i][j] + " ");
+                }
+            System.out.println();
+            }
+        System.out.println("\n***********Solution 5**************");
+        int[] array5 = MyArray.createArray(10);
+        int[] array6 = new int[] {2,2,2,1,2,2,10,1};
+        System.out.println(Arrays.toString(array5));
+        System.out.println("Minimum element is: " + MyArray.findMin(array5));
+        System.out.println("Maximum element is: " + MyArray.findMax(array5));
+        System.out.println("\n***********Solution 6**************");
+        System.out.println(MyArray.checkBalance(array6));
+        System.out.println(MyArray.checkBalance(array5));
+        System.out.println("\n***********Solution 7**************");
+        System.out.println(Arrays.toString(array5));
+        System.out.println(Arrays.toString(MyArray.shift(array5, 12)));
+    }
+
+    public static void printArray(int[] array) {
+        for (int i = 0; i < array.length; i++) {
+            System.out.printf("a[%d] = %d; ", i, array[i]);
+        }
+        System.out.println();
+    }
+
+    public static void solutionOne(int[] array) {
+        for (int i = 0; i < array.length; i++) {
+            if(array[i] == 0) {
+                array[i] = 1;
+            }
+            else {
+                array[i] = 0;
+            }
+        }
+    }
+
+    public static void solutionThree(int[] array) {
+        for (int i = 0; i < array.length; i++) {
+            if(array[i] < 6) {
+                array[i] *= 2;
+            }
+        }
+    }
+
+    public static void solutionFour(int[][] array) {
+        for (int i = 0; i < array.length; i++) {
+            for (int j = 0; j < array[i].length; j++) {
+                if(i == j || i == array.length - 1 - j) {
+                    array[i][j] = 1;
+                }
+            }
+        }
     }
 
     public static class MyArray {
