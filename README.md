@@ -1,2 +1,0 @@
-# java
-for java project
