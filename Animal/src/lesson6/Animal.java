@@ -1,15 +1,15 @@
+package lesson6;
+
 public abstract class Animal {
     private static int animalCounter;
 
-    private String name = "No name";
+    private String name;
     private int runDistance;
-    private int swimDistance;
     private double jumpHight;
 
-    public Animal(String name, int runDistance, int swimDistance, double jumpHight) {
+    public Animal(String name, int runDistance, double jumpHight) {
         setName(name);
         setRunDistance(runDistance);
-        setSwimDistance(swimDistance);
         setJumpHight(jumpHight);
         animalCounter++;
     }
@@ -20,10 +20,6 @@ public abstract class Animal {
 
     public int getRunDistance() {
         return runDistance;
-    }
-
-    public int getSwimDistance() {
-        return swimDistance;
     }
 
     public double getJumpHight() {
@@ -47,15 +43,6 @@ public abstract class Animal {
         }
     }
 
-    private void setSwimDistance(int swimDistance) {
-        if (swimDistance >= 0) {
-            this.swimDistance = swimDistance;
-        }
-        else {
-            System.out.println("Incorrect distance");
-        }
-    }
-
     private void setJumpHight(double jumpHight) {
         if (jumpHight >= 0) {
             this.jumpHight = jumpHight;
@@ -67,33 +54,19 @@ public abstract class Animal {
 
     public boolean run(int distance) {
         if (distance <= this.runDistance) {
-            System.out.println(this + " run " + distance + " meters");
+            System.out.println(name + " run " + distance + " meters");
             return true;
         }
-        System.out.println(this + " can't run " + distance + " meters");
-        return false;
-    }
-
-    public boolean swim(int distance) {
-        if (distance <= this.swimDistance) {
-            System.out.println(this + " swim " + distance + " meters");
-            return true;
-        }
-        System.out.println(this + " can't swim " + distance + " meters");
+        System.out.println(name + " can't run " + distance + " meters");
         return false;
     }
 
     public boolean jump(double hight) {
         if (hight <= this.jumpHight) {
-            System.out.println(this + " jump " + hight + " meters");
+            System.out.println(name + " jump " + hight + " meters");
             return true;
         }
-        System.out.println(this + " can't jump " + hight + " meters");
+        System.out.println(name + " can't jump " + hight + " meters");
         return false;
-    }
-
-    @Override
-    public String toString() {
-        return name;
     }
 }
