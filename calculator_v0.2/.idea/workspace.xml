@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="84d79d8e-009c-4a56-9f00-a076c9d0559c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculator_v0.2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Calculator_v0.2/CalcApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Calculator_v0.2/GUIFrame$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Calculator_v0.2/GUIFrame$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Calculator_v0.2/GUIFrame$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Calculator_v0.2/GUIFrame$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Calculator_v0.2/GUIFrame$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Calculator_v0.2/GUIFrame$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Calculator_v0.2/GUIFrame$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Calculator_v0.2/GUIFrame$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Calculator_v0.2/GUIFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Calculator_v0.2/ValueButtonListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/calculator/CalcApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/calculator/GUIFrame$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/calculator/GUIFrame$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/calculator/GUIFrame$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/calculator/GUIFrame$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/calculator/GUIFrame$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/calculator/GUIFrame$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/calculator/GUIFrame$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/calculator/GUIFrame$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/calculator/GUIFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/calculator/ValueButtonListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CalcApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUIFrame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ValueButtonListener.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1eXiAYa9VQvuzBe4F2EvnNfLZTa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="CalcApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CalcApplication" />
+      <module name="Calculator_v0.2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CalcApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="84d79d8e-009c-4a56-9f00-a076c9d0559c" name="Default Changelist" comment="" />
+      <created>1594474195772</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594474195772</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1594552897820">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1594552897820" />
+    <state width="1493" height="144" key="GridCell.Tab.0.bottom" timestamp="1594565560460">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="144" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594565560460" />
+    <state width="1493" height="144" key="GridCell.Tab.0.center" timestamp="1594565560460">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="144" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594565560460" />
+    <state width="1493" height="144" key="GridCell.Tab.0.left" timestamp="1594565560460">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="144" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594565560460" />
+    <state width="1493" height="144" key="GridCell.Tab.0.right" timestamp="1594565560460">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="144" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594565560460" />
+    <state width="1493" height="47" key="GridCell.Tab.1.bottom" timestamp="1594565214612">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="47" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594565214612" />
+    <state width="1493" height="47" key="GridCell.Tab.1.center" timestamp="1594565214612">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="47" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1594565214612" />
+    <state width="1493" height="47" key="GridCell.Tab.1.left" timestamp="1594565214612">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="47" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1594565214612" />
+    <state width="1493" height="47" key="GridCell.Tab.1.right" timestamp="1594565214612">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="47" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1594565214612" />
+    <state x="209" y="33" key="new project wizard" timestamp="1594475942918">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="209" y="33" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1594475942918" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ValueButtonListener.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
